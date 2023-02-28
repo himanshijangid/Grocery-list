@@ -1,15 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
 
-.body{
-    padding: 0;
-    margin: 0;
-    height: 81vh;
+body{
+    
+    
     background: #2A2734;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     background: url(./pic.jpg) no-repeat center;
  background-size: cover;
 }
+.main{
+    height: 80vh;
+}
 
+.container{
+    height: 500px;
+    width: 400px;
+    margin: 10px auto;
+    background:conic-gradient(at 125% 50%, #b78cf7, #ff7c94, #ffcf0d, #ff7c94, #b78cf7);
+    animation: mymove 5s infinite;
+    border-radius: 10px;
+}
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(67, 14, 14);}
+    
+  }
+  #info{
+    /* background-color: #fff; */
+    text-align: center;
+    
+  }
+  input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 280px;
+    margin-right: 40px;
+
+  }
+  i{
+    padding: 10px;
+    font-size: 2rem;
+    
+  }
+  #allItems{
+    padding: 10px;
+    margin: 10px;
+   
+   
+  }
+ 
+
+@keyframes pulsate {
+   
+    0%{
+        box-shadow: 
+        0 0 25px #0a0a0a,
+        0 0 50px #c20000;
+    }
+}
+  
